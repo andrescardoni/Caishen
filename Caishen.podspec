@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Caishen"
-  s.version          = "2.2.1"
+  s.version          = "2.2.2"
   s.summary          = "A Payment Card UI & Validator for iOS"
 
 # This description is used to generate tags and improve search results.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
                        Caishen provides a text field to enter credit card (or other card) information and validates most of this information on its own.
                        DESC
 
-  s.homepage         = "https://github.com/prolificinteractive/caishen.git"
+  s.homepage         = "https://github.com/andrescardoni/caishen.git"
   s.license          = 'MIT'
   s.author           = { "Daniel Vancura" => "daniel@prolificinteractive.com" }
   s.source           = { :git => "https://github.com/prolificinteractive/caishen.git", :tag => s.version.to_s }
